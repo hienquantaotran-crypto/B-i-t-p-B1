@@ -1,0 +1,9 @@
+def phan_loai_huyet_ap(tam_thu, tam_truong):
+    if tam_thu >= 140 or tam_truong >= 90:
+        return 'Cao huyet ap'
+    elif 120 <= tam_thu <= 139 or 80 <= tam_truong <= 89:
+        return 'Tien cao huyet ap'
+    else:
+        return 'Binh thuong'
+
+print(phan_loai_huyet_ap(130, 85))
